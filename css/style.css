@@ -1,0 +1,248 @@
+body{
+	background-color: #fff;
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.outside-container{
+	width:100%;
+}
+.container{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  margin:0 3px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+#social-icons{
+	list-style: none;
+
+}
+
+#social-icons li{
+	display: inline;
+}
+
+#brand-logo img{
+	float:left;
+	padding: 0px;
+}
+
+#brand-contact{
+	
+	position: absolute;
+	top:20px;
+	right:5%;
+}
+   
+
+#brand-logo{
+	margin-top:10px;
+}
+
+#brand-logo h1{
+	font-family: 'Pathway Gothic One';
+	font-size: 60px;
+	color:#4a883f;
+}
+
+#highlight{
+	font-family: 'Pathway Gothic One';
+	font-size: 60px;
+	color:#88bb22;
+	font-weight: solid;
+	font:bold;
+}
+
+.nav-link{
+	color:#4a883f;
+	font-size: 20px ;
+	font-style: bold;
+
+}
+.nav-item{
+	padding: 0 5px;
+}
+
+.nav-item  a:hover{
+	color:#88bb22;
+	font-weight: solid;
+
+}
+
+#brand-logo img{
+	margin:0;
+	padding:0;
+}
+
+.navbar {
+	border-top: #88bb22 6px;
+}
+
+.navbar-toggler-icon {
+	background-color:#88bb22;
+	margin-left: 180px;
+}
+
+.navbar-toggler{
+	float: right;
+}
+
+#collapsibleNavbar{
+	text-align: right;
+}
+
+.item{
+	height: 500px;
+}
+
+.carousel-caption h3{
+	font-size: 35px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+
+}
+
+
+.carousel-caption p{
+	font-size: 25px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+
+}
+
+#appoint {
+	height:80px;
+	padding-top: 20px;
+	background-color: #88bb22;
+	padding-left: 30px;
+
+}
+
+#appoint h3{
+	font-size: 25px;
+	color: #ffffff;
+	
+
+}
+#button1{
+	margin-top: 15px;
+	padding:0px;
+}
+
+#ourteam{
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #408d2f;
+}
+#teammem{
+	border-radius: 50%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#map{
+	width: 50%;
+	float: left;
+	margin-top: 50px;
+	padding-left: 50px;
+}
+#maproute{
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: #408d2f;
+
+}
+
+#direction{
+	margin-left: 45px;
+}
+
+#formcont{
+	width: 50%;
+	float: right;
+	margin-top: 50px;
+}
+
+#formhead{
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: #408d2f;
+}
+
+#formcont input{
+	width:50%;
+	margin-right: 40px;
+}
+
+#formcont label{
+	font-size: 13px;
+	width: 150px; margin-right: 40px;
+	color: #408d2f;
+}
+
+
+#info label{
+	width: 100%;
+}
+
+#butn{
+	margin-top: 10px;
+	margin-left: 257px;
+}
+
+#footer{
+	color: #ffffff;
+	background-color: #408d2f;
+	width: 100%;
+	max-height:300px;
+	margin-top: 750px;
+	text-align: center;
+}
+
+#footer h5{
+	font-size: 15px;
+	padding-top: 15px;
+}
